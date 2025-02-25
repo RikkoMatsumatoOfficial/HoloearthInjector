@@ -12,6 +12,6 @@ def Get_HoloearthProcess():
 def Get_ProcessHandle():
     return Get_HoloearthProcess().process_handle
 
-def Inject(path_file):
+def Inject(path_file : str):
     convertbytes = bytes(path_file, "utf-8")
     xz.inject_dll(Get_ProcessHandle(), convertbytes)
