@@ -1,6 +1,8 @@
 # HoloearthInjector
 This is my first injector for game Holoearth... So Enjoy to use this!!!
 
+[Join To My Discord Server](https://discord.gg/U2P5Hrcq9C)
+
 ## Donations
 
 [DonationAlerts](https://donationalerts.com/r/rikkomatsumato)
