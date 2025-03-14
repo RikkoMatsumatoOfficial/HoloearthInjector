@@ -12,6 +12,7 @@ def Main():
             b.BASS_ChannelPlay(boom, False)
         else:
             print("Bass Is Not Started Successfully")
+            os._exit(315)
         kernel32 = ct.cdll.LoadLibrary("Kernel32.dll")
         kernel32.SetConsoleTitleW("HoloEarthInjector by RikkoMatsumatoOfficial")
         pathf = input("Write Path to You're DLL File for Game Holoearth: ")
